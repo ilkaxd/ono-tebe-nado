@@ -2,7 +2,7 @@
     padding: 92px 49px 92px 51px;
     display: grid;
     grid-template-columns: auto 209px auto 355px auto;
-    justify-content: center;
+    grid-template-rows: 100px;
 }
 
 .header__menu {
@@ -10,24 +10,25 @@
 }
 
 .header__links-list {
-    list-style: circle;
-    
+    display: flex;
+    gap: 13px;
 }
 
 .header__links-list-item {
-    
+    list-style: circle inside;
 }
 
 .header__links-list-item_no-bullit {
-    
+    list-style: none;
 }
 
 .header__link {
-    
+    text-decoration: none;
+    border-bottom: solid 2px;
 }
 
 .header__link-active {
-
+    border: none;
 }
 
 .header__logo {
@@ -36,7 +37,7 @@
 }
 
 .header__logo-image {
-
+    cover
 }
 
 .address {
