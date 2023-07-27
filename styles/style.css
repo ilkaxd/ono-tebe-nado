@@ -1,1 +1,208 @@
-/* место для вашего кода */
+.header {
+    padding: 92px 49px 92px 51px;
+    display: grid;
+    grid-template-columns: auto 209px auto 355px auto;
+    justify-content: center;
+}
+
+.header__menu {
+    grid-column-start: 1;
+}
+
+.header__links-list {
+    list-style: circle;
+    
+}
+
+.header__links-list-item {
+    
+}
+
+.header__links-list-item_no-bullit {
+    
+}
+
+.header__link {
+    
+}
+
+.header__link-active {
+
+}
+
+.header__logo {
+    grid-column-start: 3;
+    display: block;
+}
+
+.header__logo-image {
+
+}
+
+.address {
+
+}
+
+.header__address {
+    grid-column-start: 5;
+}
+
+.cover {
+
+}
+
+.overlay {
+
+}
+
+.cover__title {
+
+}
+
+.aligned-text {
+
+}
+
+.aligned-text_center {
+
+}
+
+.aligned-text_right {
+
+}
+
+.letter-spacing-extended {
+
+}
+
+.no-letter-spacing {
+
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+
+}
+
+.lots {
+
+}
+
+.lots__heading {
+
+}
+
+.lots__card-list {
+
+}
+
+.lots__card-list-item {
+
+}
+
+.card-link {
+
+}
+
+.card {
+
+}
+
+.card_type_film {
+
+}
+
+.card_type_book {
+
+}
+
+.card_type_picture {
+
+}
+
+.card__title {
+
+}
+
+.card__text {
+
+}
+
+.lots__look-more-link {
+
+}
+
+.about {
+
+}
+
+.about__column {
+
+}
+
+.about__logo {
+
+}
+
+.about__logo-image {
+
+}
+
+.about__title {
+
+}
+
+.about__text {
+
+}
+
+.footer {
+
+}
+
+.address {
+
+}
+
+.footer__menu {
+
+}
+
+.footer__menu-list {
+
+}
+
+.footer__menu-list-item {
+
+}
+
+.footer__menu-link {
+
+}
+
+.footer__menu-link_active {
+
+}
+
+.footer__social-list {
+
+}
+
+.footer__social-list-item {
+
+}
+
+.footer__social-link {
+
+}
+
+.footer__social-icon{
+
+}
