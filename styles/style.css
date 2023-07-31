@@ -113,6 +113,7 @@
 
 .bet-button {
   font-size: 22px;
+  cursor: pointer;
   color: #fff;
   padding: 12px 32px;
   border: 1px solid #fff;
@@ -265,11 +266,14 @@
   text-decoration: none;
 }
 
-.footer__social-list {
+.footer__social-nav {
   justify-self: end;
+}
+
+.footer__social-list {
   display: flex;
   justify-content: space-between;
-  min-width: 240px;
+  gap: 48px;
   list-style: none;
 }
 

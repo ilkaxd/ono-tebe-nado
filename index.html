@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./fonts/fonts.css" rel="stylesheet">
-    <link href="./styles/global.css" rel="stylesheet" />
-    <link href="./styles/style.css" rel="stylesheet" />
+    <link href="./styles/global.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
@@ -15,13 +15,13 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="header__link header__link-active">главная</a>
+            <a  href="#" class="header__link header__link-active">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#lots">посмотреть лоты</a>
+            <a  href="#lots" class="header__link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#about">об аукционе</a>
+            <a  href="#about" class="header__link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -62,9 +62,9 @@
           >
         </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
-          </h2>
+          </з>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
@@ -74,7 +74,7 @@
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -89,7 +89,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -107,7 +107,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -127,7 +127,7 @@
       </section>
 
       <!-- Четвёртая секция -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__column">
           <div class="about__logo">
             <img
@@ -170,8 +170,8 @@
 
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item footer__menu-link_active">
-            <a class="footer__menu-link footer__menu-link_active">главная</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link footer__menu-link_active" href="#">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
@@ -181,32 +181,33 @@
           </li>
         </ul>
       </nav>
-
-      <ul class="footer__social-list">
-        <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link">
-            <img
-              class="footer__social-icon"
-              alt="YouTube"
-              src="./images/yt.svg"
-            />
-          </a>
-        </li>
-        <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link">
-            <img class="footer__social-icon" alt="VK" src="./images/vk.svg" />
-          </a>
-        </li>
-        <li class="footer__social-list-item">
-          <a href="#" class="footer__social-link">
-            <img
-              class="footer__social-icon"
-              alt="Pinterest"
-              src="./images/pinterest.svg"
-            />
-          </a>
-        </li>
-      </ul>
+      <nav class="footer__social-nav">
+        <ul class="footer__social-list">
+          <li class="footer__social-list-item">
+            <a href="#" class="footer__social-link">
+              <img
+                class="footer__social-icon"
+                alt="YouTube"
+                src="./images/yt.svg"
+              />
+            </a>
+          </li>
+          <li class="footer__social-list-item">
+            <a href="#" class="footer__social-link">
+              <img class="footer__social-icon" alt="VK" src="./images/vk.svg" />
+            </a>
+          </li>
+          <li class="footer__social-list-item">
+            <a href="#" class="footer__social-link">
+              <img
+                class="footer__social-icon"
+                alt="Pinterest"
+                src="./images/pinterest.svg"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>  
     </footer>
   </body>
 </html>
